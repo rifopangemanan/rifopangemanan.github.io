@@ -1,0 +1,147 @@
+p {
+  font-family: Roboto;
+}
+
+ul.breadcum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 80px;
+}
+
+h1.title-section p::before {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 4px;
+  position: relative;
+  vertical-align: bottom;
+  width: 90px;
+}
+
+h1.title-section p {
+  font-size: 28px;
+}
+
+h1.subtitle-section p {
+  font-size: 34px;
+}
+
+h1.subtitle-section {
+  color: #0d5ea3;
+  font-weight: 800;
+}
+
+.header-container {
+  padding: 30px 0px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo.ban-pt {
+  margin-top: 10px;
+}
+
+.second-navigation li a {
+  color: white;
+}
+
+.second-navigation {
+  position: relative;
+  z-index: 2;
+}
+
+.subsection {
+  padding: 100px;
+}
+
+h1 {
+  line-height: normal;
+  font-weight: bold;
+}
+
+h1.title-section,
+h1.subtitle-section {
+  margin-left: 80px;
+}
+
+h1.title-section p::before {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: bottom;
+  width: 90px;
+}
+
+h1.title-section p {
+  font-size: 18px;
+}
+
+h1.subtitle-section {
+  color: #0d5ea3;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  h1.title-section p,
+  h1.subtitle-section {
+    font-size: 18px;
+  }
+}
+
+.section-title {
+  line-height: normal;
+  font-size: 14px;
+  color: #313131;
+}
+
+.section-title::before {
+  background-color: #2e2e2e;
+  content: "";
+  display: inline-block;
+  height: 2.5px;
+  position: relative;
+  vertical-align: middle;
+  width: 50px;
+  margin-right: 2.5px;
+}
+
+.section-subtitle {
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  color: #213763;
+  font-weight: 700;
+}
+
+.item-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-number .text-number {
+  margin-left: 10px;
+  width: 650px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #3b3b3b;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.item-number .text {
+  margin-left: 10px;
+  width: 650px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #3b3b3b;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=rif.typology.css.map */

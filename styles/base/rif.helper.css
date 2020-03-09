@@ -1,0 +1,80 @@
+.rpointer {
+  cursor: pointer;
+}
+
+.btn-more {
+  padding: 10px 40px;
+}
+
+.style-primary-btn {
+  background-color: #dd1919;
+  color: white;
+}
+
+.style-secondary-btn {
+  background-color: white;
+  color: #dd1919;
+}
+
+.style-white-text {
+  color: white;
+}
+
+.line-blue {
+  border-bottom: #0d5ea3 3px solid;
+  width: 50%;
+}
+
+.header-text-color-blue {
+  color: #0071bc;
+}
+
+.padding-100 {
+  padding: 0px 100px;
+}
+
+.visible {
+  display: block;
+}
+
+.li-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.no-background {
+  background-color: rgba(139, 133, 133, 0);
+}
+
+.link {
+  cursor: pointer;
+}
+
+a {
+  color: #1c98eb;
+  text-decoration: none;
+}
+
+.no-sticky {
+  position: relative;
+  z-index: 2;
+}
+
+.breadcum {
+  padding-bottom: 80px;
+}
+
+li.menu-active {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 0px;
+  background-color: #dd1919;
+}
+
+li.menu-active a {
+  color: white;
+}
+/*# sourceMappingURL=rif.helper.css.map */

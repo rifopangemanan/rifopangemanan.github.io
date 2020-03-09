@@ -1,0 +1,238 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "proxima_novabold", serif;
+}
+
+@font-face {
+  font-family: "proxima_novabold";
+  src: url("../../assets/fonts/fontsfree-net-proxima-nova-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/fontsfree-net-proxima-nova-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.r-link::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #dd1919;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.r-link:hover::after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.r-link.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #dd1919;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+@media (min-width: 1280px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .nav-links,
+  .left-menu {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 2;
+    margin: 0px;
+  }
+  .nav-links a,
+  .left-menu a {
+    color: #524d51;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav-links li,
+  .left-menu li {
+    padding: 10px 20px;
+  }
+  .nav-logo {
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .left-menu {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1279px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    height: 10vh;
+  }
+  .mobile {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100px;
+  }
+  .desktop {
+    display: none;
+  }
+  .nav-links {
+    width: 100%;
+    padding: 0px 0px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: right;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    margin: 0px;
+    top: 10vh;
+    opacity: 0;
+    -webkit-transition: opacity;
+    transition: opacity;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+    display: none;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .nav-active {
+    width: 100%;
+    background-color: #1785ce;
+    opacity: 1;
+    display: block;
+  }
+  .nav-links li {
+    border-bottom: white 1px solid;
+    padding: 10px 0px;
+  }
+  .nav-links li:hover {
+    background-color: #213763;
+  }
+  .nav-logo {
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .burger {
+    color: #8b8585;
+    cursor: pointer;
+  }
+  .navigation img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.header-container {
+  background: url("../../assets/images/akademik/sistem_informasi/bg_header.png") no-repeat center fixed;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-container {
+  height: 450px;
+  position: relative;
+}
+
+h1.header {
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  bottom: 50px;
+  color: white;
+  font-size: 68px;
+  font-weight: 700;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  line-height: normal;
+}
+
+button.apply-btn {
+  background-color: #dd1919;
+  color: white;
+  border: 0px;
+  padding: 10px 30px;
+  margin: 0px 30px;
+  cursor: pointer;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 30px 5%;
+  top: 0px;
+  z-index: 3;
+  font-family: "proxima_novabold", serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #524d51;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-logo {
+  width: 80px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=rif.navigation.css.map */

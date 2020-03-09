@@ -1,0 +1,118 @@
+.img-subsection2 img {
+  width: 437px;
+}
+
+.subsection1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-bottom: 80px;
+}
+
+.subsection2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.flex-item-1 {
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+}
+
+.visi-container {
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+  padding-left: 100px;
+}
+
+.subsection2 .img-subsection2 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 400px;
+}
+
+.profile-tamatan li {
+  list-style-type: circle;
+}
+
+.main-content {
+  background-image: url(../../assets/images/akademik/sistem_informasi/bg_content.png);
+  padding: 100px 20%;
+}
+
+.subsection-header {
+  font-family: "Roboto";
+}
+
+.fakultas {
+  width: 250px;
+  color: #dd1919;
+  line-height: 34px;
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: #dd1919 3px solid;
+}
+
+.visi-container p {
+  width: 400px;
+}
+
+.table-misi {
+  width: 500px;
+}
+
+.table-misi td {
+  padding: 10px;
+}
+
+article.profile-tamatan {
+  width: 500px;
+}
+
+.profile-tamatan-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-pic {
+  height: 600px;
+}
+
+@media (max-width: 622px) {
+  .main-content {
+    padding-left: 5%;
+  }
+  .img-subsection2 img {
+    width: 300px;
+    height: auto;
+  }
+  .table-misi {
+    width: 300px;
+  }
+  .visi-container p {
+    width: 320px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .subsection1, .subsection2, .subsection3 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .visi-container {
+    padding-left: 0px;
+  }
+  .profile-pic {
+    display: none;
+  }
+}
+/*# sourceMappingURL=rif.prodi.base.css.map */
